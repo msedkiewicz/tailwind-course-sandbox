@@ -9,10 +9,89 @@
   </head>
   <body>
     <!-- Flex and alignment -->
+    <div class="flex flex-col md:flex-row">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <div class="flex items-center justify-around h-72 w-full bg-gray-100">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+    <div class="flex flex-col items-center h-72 w-full bg-gray-100 py-2 mb-40">
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
+
+    <div
+      class="flex items-center flex-wrap justify-around h-72 w-full bg-gray-100"
+    >
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">Item 4</div>
+    </div>
 
     <!-- Flex Column, Gap and Order -->
+    <div
+      class="flex flex-col gap-4 items-center justify-between w-full bg-gray-100"
+    >
+      <div class="order-2 p-10 border border-blue-800 bg-blue-500">Item 1</div>
+      <div class="order-4 p-10 border border-blue-800 bg-blue-600">Item 2</div>
+      <div class="order-1 p-10 border border-blue-800 bg-blue-700">Item 3</div>
+      <div class="order-3 p-10 border border-blue-800 bg-blue-900">Item 4</div>
+    </div>
 
     <!-- Grow and shrink -->
+    <div class="flex w-full bg-gray-100">
+      <div class="flex-initial w-64 p-10 border border-teal-300 bg-teal-500">
+        Item 1
+      </div>
+      <div class="flex-none w-64 p-10 border border-teal-300 bg-teal-500">
+        Item 2
+      </div>
+      <div class="flex-auto w-64 p-10 border border-teal-300 bg-teal-500">
+        Item 3
+      </div>
+      <div class="flex-1 w-64 p-10 border border-teal-300 bg-teal-500">
+        Item 4
+      </div>
+      <div class="p-10 border border-teal-300 bg-teal-500">Item 5</div>
+      <div class="p-10 border border-teal-300 bg-teal-500">Item 6</div>
+      <div class="p-10 border border-teal-300 bg-teal-500">Item 7</div>
+      <div class="p-10 border border-teal-300 bg-teal-500">Item 8</div>
+    </div>
+
+    <div class="flex text-center">
+      <div class="flex-1 bg-blue-100">Hello World</div>
+      <div class="flex-1 bg-blue-200">Hello World</div>
+      <div class="flex-1 bg-blue-100">Hello World</div>
+    </div>
   </body>
 </html>
 
